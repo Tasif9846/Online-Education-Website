@@ -1,0 +1,74 @@
+.Testimonial{
+    height: auto;
+    background-color: rgb(241, 240, 240);
+ }
+ .Testimonial .Test_head{
+    padding: 0;
+    margin-top: 20px;
+}
+.Testimonial .flexSB  .Test_head h5{
+    color: rgb(10, 136, 117);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 450px;
+}
+.Testimonial .flexSB  .Test_head h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    margin: 20px 0;
+    margin-left: 180px;
+}
+.testimonialCard{
+    padding: 50px 0;
+}
+.testimonialCard i{
+    margin-left: 40px;
+    font-size: 25px;
+    background-color: rgb(10, 136, 117);
+    color: #fff;
+    
+    
+}
+.testimonialCard .items{
+    padding: 30px ;
+    text-align: center;
+    background-color: #fff;
+}
+.testimonialCard .items:hover{
+    background-color: rgb(124, 209, 237);
+    color: #fff;
+}
+.testimonialCard .items .img{
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+   
+}
+.testimonialCard .items .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.testimonialCard .Name h2{
+    margin-top: 30px;
+    margin-right: 70px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.testimonialCard .items .Name span{
+    margin-top: 15px;
+    font-size: 15px;
+    margin-right: 35px;
+    font-weight: 900;
+    color: rgb(10, 136, 117);
+}
+.testimonialCard .items p{
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: grey;
+}

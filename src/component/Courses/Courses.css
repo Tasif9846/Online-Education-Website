@@ -1,0 +1,72 @@
+.courses{
+    height: auto;
+    background-color: rgb(241, 240, 240);
+ }
+
+ .courses .co_head{
+    padding: 0;
+    margin-top: 20px;
+}
+.courses .flexSB .co_head h5{
+    color: rgb(10, 136, 117);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 450px;
+}
+.courses .flexSB .co_head h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    margin: 20px 0;
+    margin-left: 180px;
+}
+.courseCard{
+    padding: 50px 0;
+}
+.courseCard .items{
+    padding: 30px ;
+    text-align: center;
+    background-color: #fff;
+}
+.courseCard .items .img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: rgb(38, 181, 228);
+}
+.courseCard .items .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.courseCard .text{
+    margin-left: 15px;
+    text-align: left;
+}
+.courseCard .text  h1{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 35px;
+}
+.courseCard .rate{
+    margin: 20px 0;
+    color:rgb(38, 181, 228) ;
+}
+.courseCard .rate i{
+    font-size: 13px;
+    margin-right: 5px;
+}
+.courseCard .price{
+   margin: 30px 0;
+   background-color: #fff;
+   padding: 0px;
+}
+.courseCard h3{
+    
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(38, 181, 228);
+}

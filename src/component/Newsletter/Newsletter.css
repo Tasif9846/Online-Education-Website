@@ -1,0 +1,56 @@
+.Newsletter{
+    height: auto;
+    background-color: rgb(71, 209, 230); 
+    
+ }
+ .Newsletter .leftRow{
+    padding: 0;
+    margin-top: 30px;
+}
+.Newsletter .leftRow h1{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.Newsletter .leftRow span{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    
+}
+.Newsletter .rightRow{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.Newsletter .rightRow input{
+    height: 30px;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+}
+.Newsletter .rightRow i{
+    background-color: #fff;
+    color: rgb(71, 209, 230);
+    padding: 12px;
+}
+.footer{
+    background-color: #dddada;
+    text-align: center;
+    padding: 50px 0;
+   border-radius: 10px;
+}
+.footer p{
+    font-size: 18px;
+    line-height: 15px;
+    color: rgb(83, 79, 79);
+    font-weight: 900;
+}
+.footer i{
+    color: rgb(71, 209, 230);
+    margin-left: 7px;
+    font-weight: 700;
+}

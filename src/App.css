@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Nunito+Sans:ital,wght@1,300;1,400&family=Nunito:wght@200;300;400;600;700&family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Nunito+Sans:ital,wght@1,300;1,400&family=Nunito:wght@200;300;400;600;700&family=Qahiri&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Nunito', sans-serif;
+  background-color: #fff;
+  
+}
+.container{
+  max-width: 85%;
+  margin: auto;
+}
+.flexSB{
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,.1);
+   color: rgb(10, 136, 117);
+  transition: 0.5s;
+}
+.icon:hover{
+  cursor: pointer;
+  background-color: rgb(10, 136, 117);
+  color: #fff;
+}
+.row{
+  width: 50%;
+}
+button{
+  padding: 17px 30px;
+  background-color: #fff;
+  color:rgb(10, 136, 117);
+  font-weight: 600;
+  border: none;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgba(0 0 0 /9%);
+}
+button i{
+  margin-left: 20px;
+}
+button{
+  box-shadow: none;
+}
+.left{
+  float: left;
+}
+.flex{
+  display: flex;
+}
+.grid2{
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3,1fr);
+}
+.online-button{
+  margin-top: 20px;
+  box-shadow: none;
+  background-color: rgb(38, 181, 228) ;
+  color: #fff;
+  width: 100%;
+  transition: 0.5s;
+}
+.online-button:hover{
+  background-color: rgb(163, 215, 246);
+  color:rgb(10, 136, 117);
+}
